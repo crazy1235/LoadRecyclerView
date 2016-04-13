@@ -6,6 +6,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.view.View;
+import android.widget.ListView;
 
 /**
  * Created by jacksen on 2016/4/12.
@@ -20,7 +21,6 @@ public class JackRecyclerView extends RecyclerView {
 
     public JackRecyclerView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
-
         init(context);
     }
 
